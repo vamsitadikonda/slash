@@ -41,11 +41,20 @@ flask run
 ```
 cd  src/slash-react-app
 ```
-7. Try building the package directly using the ```build run``` command.
+7. Try installing all the packages 
+```
+npm install
+
+// if npm install fails, try this
+npm install --legacy-peer-deps
+
+```
+
+8. Try building the package directly using the ```build run``` command.
 ```
 npm run build
 ```
-8. If there are any issues with step 7, Use npm to install the below packages and retry step 7.
+9. If there are any issues with step 8, Use npm to install the below packages and retry step 7. Otherwise skip this step.
 ```
 npm install @material-ui/icons
 npm install @material-ui/core
