@@ -8,7 +8,6 @@ the available e-commerce websites. The results of the search will be available w
 Example:
 <p align="center"><img width="700" src="./assets/slash_web_demo_1.gif"></p>
 
-
 #### 2. Result length
 The maximum number of results that are scraped from each website can be set in the second text bar. It accepts
 a positive integer value from 1 to 15 number of results per each website. Incase of an invalid input, the results default this value to 3. 
@@ -34,20 +33,28 @@ The search string should be in double quotes if it has two or more words and you
 Example:
 <p align="center"><img width="700" src="./assets/slash_rest_demo_1.gif"></p>
 
+If we want to search an item 'toy', the results can also be obtained at:
+
+```https://slash-app.herokuapp.com/slash/?search=toy```
+
 #### 2. Result length
 The ```num``` parameter defines the maximum number of results that are scraped from each website can be set in the second text bar. It accepts
 a positive integer value from 1 to 15 number of results per each website. Incase of an invalid input, the results default this value to 3. This is a **mandatory field** for the REST API.
 
 Example: In this example, The user searches for the same product with two different result lengths (2 and 4).
 <p align="center"><img width="700" src="./assets/slash_rest_demo_2.gif"></p>
+If we want to search an item 'toy' where this product can be scraped 5 times from each website, the results can be obtained at: 
+
+```https://slash-app.herokuapp.com/slash/?search=toy&num=5```
 
 #### 3. Email Notification
 The ```email``` parameter can be used to send a copy of the results. You can send the same email to multiple senders by seperating the emails by commas
 
 Example:
 <p align="center"><img width="700" src="./assets/slash_rest_demo_3.gif"></p>
+If we want to send results to several people on email, we can just used the argument email, with values of list of comma separated emails. we want to send notifications to people 'sbuchan2@ncsu.edu' and 'vperoll@ncsu.edu', the results can be seen at:
 
-
+```https://slash-app.herokuapp.com/slash/?search=toy&num=5&email="sbuchan2@ncsu.edu,vperoll@ncsu.edu"```
 
 
 ## CLI Tool Examples

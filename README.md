@@ -132,13 +132,35 @@ To have a better understanding of the code, please click on the [link](https://w
 <img src="./assets/netlify.png" alt="Netlify" width="20" height="20"/> Netlify </br>
 
 
+## Directory Structure
+``` txt
+.github/workflows
+assets
+docs
+src
+tests
+.coverage
+.gitignore 
+CODE-OF-CONDUCT.md
+CONTRIBUTING.md
+EXAMPLES.md
+INSTALL.md
+LICENSE
+Procfile
+README.md
+SCALABILITY.md  
+requirements.txt
+setup.py 
+```
+
+
 :sparkles: Contributors
 ---
 
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/vamsitadikonda">Vamsi Tadikonda</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/swimitha-buchannolla-52114b120">Swimitha Buchanolla</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/swimitha-buchannolla-52114b120">Swimitha Buchannolla</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/vinay-perolla">Vinay Kumar Reddy Perolla</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/bharathkatabathuni">Bharath Katabathuni</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/saisree4">Sai Sree Nalluru</a></td>
